@@ -3,7 +3,7 @@ import item1 from './assets/item1.jpg'
 import item2 from './assets/item2.jpg'
 import item3 from './assets/item3.jpg'
 import placehold from './assets/placehold.jpg'
-function ShopFluffs() {
+function ShopPatterns() {
     return (
         <div className='flex flex-col gap-7 pt-15'>
             <img src={placehold} className='h-35 w-1200 object-cover'/>
@@ -16,4 +16,4 @@ function ShopFluffs() {
         </div>
     );
 }
-export default ShopFluffs;
+export default ShopPatterns;

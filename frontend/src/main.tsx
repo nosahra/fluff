@@ -9,6 +9,7 @@ import './index.css';
 import NavBar from './NavBar.tsx';
 import Landing from './Landing.tsx';
 import ShopFluffs from './ShopFluffs.tsx';
+import ShopPatterns from "./ShopPatterns.tsx";
 
 
 const router = createBrowserRouter([
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "shop-patterns/",
-        element: <></>
+        element: <ShopPatterns />
       },
       {
         path: "basket/",
