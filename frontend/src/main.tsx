@@ -8,6 +8,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import NavBar from './NavBar.tsx';
 import Landing from './Landing.tsx';
+import ShopFluffs from './ShopFluffs.tsx';
 
 
 const router = createBrowserRouter([
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "shop-fluffs/",
-        element: <></>
+        element: <ShopFluffs />
       },
       {
         path: "shop-patterns/",
